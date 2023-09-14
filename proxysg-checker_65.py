@@ -762,7 +762,7 @@ if __name__ == "__main__":
                     print('\nGetting ProxySG sysinfo...\n',flush=True)
                     check_start()
             elif number == 5:
-                print('\n Byebye~ Have a nice day! -from Choi\n', flush=True)
-                time.sleep(1)
-                break
+                print('\n Closing...\n Have a nice day! -from Choi\n', flush=True)
+                time.sleep(2)
+                exit()
             elif number <1 or number > 4: print('\nPlease type the correct number.\n')
